@@ -11,7 +11,7 @@ export function getCoursePriceLabel(price: number | null): string | null {
     return "Free";
   }
 
-  return `₹${price}`;
+  return `৳${price}`;
 }
 
 export function buildCourseMeta(

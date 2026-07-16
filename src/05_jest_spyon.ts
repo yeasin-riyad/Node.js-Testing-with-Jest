@@ -1,6 +1,6 @@
 export const priceUtils = {
   formatCurrency(amount: number): string {
-    return `₹${amount}`;
+    return `৳${amount}`;
   },
 };
 
