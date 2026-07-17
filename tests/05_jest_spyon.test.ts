@@ -7,7 +7,7 @@ import { buildPriceSummary, priceUtils } from "../src/05_jest_spyon";
 
 // starting a spy -> watch this method
 
-describe("buildPriceSummary", () => {
+describe("buildPriceSummary",() => {
   test("calls the real helper and still lets us inspect the calls", () => {
     const formatCurrencySpy = jest.spyOn(priceUtils, "formatCurrency");
 
